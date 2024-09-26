@@ -10,12 +10,12 @@ Welcome to the **React Notes** repository! This repository contains comprehensiv
    - React Ecosystem
    - Why use React?
 
-2. **[Import and Exports in React](./02_React-Import-Export.md)**
+2. **[Import and Exports in React](./02-React-Import-Export.md)**
    - Importing and Exporting Components
    - ES6 Module System
    - Default vs Named Exports
 
-3. **[Conditional Rendering](./03_React-Conditional-Rendering.md)**
+3. **[Conditional Rendering](./03-React-Conditional-Rendering.md)**
    - Conditional Logic in JSX
    - Ternary Operators and Short-circuit Evaluation
    - Rendering Different Components Based on State
