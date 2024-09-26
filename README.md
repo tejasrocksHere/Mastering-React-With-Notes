@@ -10,22 +10,18 @@ Welcome to the **React Notes** repository! This repository contains comprehensiv
    - React Ecosystem
    - Why use React?
 
-2. **[JSX and Rendering](./notes/02_jsx_and_rendering.md)**
-   - Introduction to JSX
-   - Rendering Elements
-   - Virtual DOM Concept
+2. **[JSX and Rendering](./02-React-Import-Export.m)**
+   
 
-3. **[Components](./notes/03_components.md)**
-   - Function Components
-   - Class Components
-   - Component Lifecycle
+3. **[Components](./03-React-Conditional-Rendering.md)**
+   
 
 4. **[Props and State](./notes/04_props_and_state.md)**
    - Passing Data with Props
    - Managing State in Components
    - Props vs. State
 
-5. **[Handling Events](./notes/05_handling_events.md)**
+5. **[Handling Events](./04_React-Props.md)**
    - Event Handling in React
    - Synthetic Events
    - Conditional Rendering
