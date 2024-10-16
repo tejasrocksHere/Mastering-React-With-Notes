@@ -1,0 +1,113 @@
+/* Body styles for dark theme */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background for the dark theme */
+  color: #e0e0e0; /* Light text color for contrast */
+}
+
+/* Container for the exam component */
+.exam-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #1e1e1e; /* Dark card background */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Deeper shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect on the card */
+.exam-container:hover {
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.7); /* Enhances shadow on hover */
+}
+
+/* Title styles */
+.exam-title {
+  text-align: center;
+  color: #9c27b0; /* Bright purple color for the title */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Question number */
+.question-number {
+  color: #b3b3b3; /* Lighter gray for the question number */
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Question text styles */
+.question-text {
+  font-size: 1.4em; /* Larger font for question */
+  line-height: 1.6; /* Spacing between lines */
+  margin-bottom: 30px; /* More space below the question */
+  color: #ffffff; /* Bright text for questions */
+}
+
+/* Option container styles */
+.option-container {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #282828; /* Dark background for options */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect on option container */
+.option-container:hover {
+  background-color: #3e3e3e; /* Lighter background on hover */
+}
+
+/* Option label styles */
+.option-label {
+  font-size: 1.1em;
+  color: #d3d3d3; /* Light gray for options text */
+  cursor: pointer; /* Pointer cursor for clickable options */
+  display: flex; /* Align radio button and text inline */
+  align-items: center;
+}
+
+/* Radio button styles */
+.option-input {
+  margin-right: 15px; /* Space between radio button and label */
+  accent-color: #9c27b0; /* Purple highlight color for radio button */
+  width: 20px;
+  height: 20px;
+}
+
+/* Button styles */
+.next-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #9c27b0; /* Bright purple button */
+  color: #1e1e1e; /* Dark text on button */
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+  margin-top: 20px;
+}
+
+/* Hover effect on button */
+.next-button:hover {
+  background-color: #7b1fa2; /* Darker shade of purple on hover */
+  transform: scale(1.03); /* Slight zoom on hover */
+}
+
+.next-button:disabled {
+  background-color: #555; /* Gray out the button when disabled */
+  cursor: not-allowed;
+  color: #aaa;
+}
+
+/* Loading text styles */
+.loading-text {
+  text-align: center;
+  color: #888; /* Slightly lighter gray for loading text */
+  font-size: 1.2em;
+}
